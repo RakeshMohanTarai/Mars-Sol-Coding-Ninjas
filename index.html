@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NASA Images</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="header">
+    <h1>Mars Sol</h1>
+  </div>
+  <div id="date-form">
+    <label for="sol-input"> Sol: </label>
+    <input type="number" id="sol-input" placeholder="Enter Sol" min="0">
+    <label for="page-input"> Page: </label>
+    <input type="number" id="page-input" placeholder="Enter Page" min="0">
+    <input type="submit" id="submit-btn" value="Get Images">
+  </div>
+  <div id="image-container"></div>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
